@@ -11,6 +11,6 @@
   "preInstallScripts" : [
     "mkdir -p $HOME/go/src",
     "export GOPATH=$HOME/go",
-    "sudo apt-get install golang"
+    "sudo apt-get -y install golang"
   ]
 }
