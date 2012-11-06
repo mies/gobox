@@ -11,6 +11,6 @@
   "preInstallScripts" : [
     "mkdir -p $HOME/go/src",
     "export GOPATH=$HOME/go",
-    "yes | sudo apt-get -y install golang"
+    "sudo DEBIAN_FRONTEND=noninteractive apt-get -y install golang"
   ]
 }
