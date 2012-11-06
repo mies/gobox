@@ -7,7 +7,7 @@
       "export GOPATH=$HOME/go"
       ]
     },
-    "go_unit_test" {
+    "go_unit_test" : {
         "commands" : [
             "go test"
             ]
